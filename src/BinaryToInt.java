@@ -20,7 +20,7 @@ public class BinaryToInt {
                     a[i] = 1;
                 else a[i] = 0;
             } else {
-                System.out.println("Некорректное значение вводных данных!");
+                System.out.println("Error");
                 break;
             }
             sum += (a[i] * Math.pow(2, i));
